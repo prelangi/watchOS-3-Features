@@ -19,8 +19,14 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(InterfaceController.tap), userInfo: nil, repeats: true)
+    }
+    
+    func tap(){
+        
+        WKInterfaceDevice.current().play(WKHapticType.start)
+        
     }
     
     override func didDeactivate() {
