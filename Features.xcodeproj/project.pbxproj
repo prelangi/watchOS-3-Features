@@ -20,6 +20,7 @@
 		76EBDCC21D130FBF00334AA1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EBDCC11D130FBF00334AA1 /* ExtensionDelegate.swift */; };
 		76EBDCC41D130FBF00334AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EBDCC31D130FBF00334AA1 /* Assets.xcassets */; };
 		76EBDCD41D13111700334AA1 /* FeatureInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EBDCD31D13111700334AA1 /* FeatureInterfaceController.swift */; };
+		CAF2EF261D15D8C2001E5451 /* DiceRollInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2EF251D15D8C2001E5451 /* DiceRollInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		76EBDCC31D130FBF00334AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76EBDCC51D130FBF00334AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76EBDCD31D13111700334AA1 /* FeatureInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureInterfaceController.swift; sourceTree = "<group>"; };
+		CAF2EF251D15D8C2001E5451 /* DiceRollInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				76EBDCC11D130FBF00334AA1 /* ExtensionDelegate.swift */,
 				76EBDCC31D130FBF00334AA1 /* Assets.xcassets */,
 				76EBDCC51D130FBF00334AA1 /* Info.plist */,
+				CAF2EF251D15D8C2001E5451 /* DiceRollInterfaceController.swift */,
 			);
 			path = "Features WatchKit Extension";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76EBDCC21D130FBF00334AA1 /* ExtensionDelegate.swift in Sources */,
+				CAF2EF261D15D8C2001E5451 /* DiceRollInterfaceController.swift in Sources */,
 				76EBDCD41D13111700334AA1 /* FeatureInterfaceController.swift in Sources */,
 				76EBDCC01D130FBE00334AA1 /* InterfaceController.swift in Sources */,
 			);

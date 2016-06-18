@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Features_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="[Feature]" id="jjf-co-pYO">
+                        <button width="1" alignment="left" title="[Notification]" id="jjf-co-pYO">
                             <connections>
                                 <segue destination="uMd-xg-WeD" kind="push" id="0UM-w4-jAT"/>
                             </connections>
@@ -22,7 +22,27 @@
         <!--[Feature]-->
         <scene sceneID="Tto-O8-d4A">
             <objects>
-                <controller title="[Feature]" id="uMd-xg-WeD" customClass="FeatureInterfaceController" customModule="Features_WatchKit_Extension"/>
+                <controller title="[Feature]" id="uMd-xg-WeD" customClass="FeatureInterfaceController" customModule="Features_WatchKit_Extension">
+                    <items>
+                        <imageView width="100" height="100" alignment="center" image="frame_0" id="S3Y-mv-DEA"/>
+                        <button width="1" height="20" alignment="left" title="ROLL👍" id="Js1-rW-QhS">
+                            <color key="titleColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="onRoll" destination="uMd-xg-WeD" id="QoA-UL-u6k"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="20" alignment="left" title="STOP" id="W32-hz-qPE">
+                            <color key="titleColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="onStop" destination="uMd-xg-WeD" id="sqc-Bf-UmN"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="diceRollImage" destination="S3Y-mv-DEA" id="MWr-2Q-VH7"/>
+                        <outlet property="rollButton" destination="Js1-rW-QhS" id="2Qc-7j-6o4"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="366" y="134"/>
         </scene>
